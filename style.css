@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: 'Amiri', serif; /* استخدام خط Amiri */
+    text-align: center;
+    direction: rtl;
+    font-size: large;
+}
+h4 {
+    font-size: larger;
+}
+.counter-container {
+    margin-top: 50px;
+}
+
+#count {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#counter-btn, #reset-btn, #back-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#counter-btn {
+    background-color:darksalmon;
+    color: white;
+    border: none;
+    padding: 40%;
+}
+#counter-btn:hover {
+    background-color:rgb(180, 136, 125);
+}
+#reset-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    margin-top: 66px;
+    font-size: larger;
+    width: 150px;
+}
+#back-btn {
+    background-color:aliceblue;
+}
